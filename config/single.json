@@ -1,0 +1,16 @@
+{
+  "user": "LambdaTest username",
+  "key": "LambdaTest accesskey",
+
+  "capabilities": {
+    "build": "behave-test-lambdatest",
+    "name": "single_test"
+  },
+
+  "environments": [{
+    "browser": "chrome",
+    "tunnel":false,
+    "network":false,
+    "visual":false
+  }]
+}

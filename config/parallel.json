@@ -1,0 +1,23 @@
+{
+  "user": "LambdaTest username",
+  "key": "LambdaTest accesskey",
+
+  "capabilities": {
+    "build": "behave-test-lambdatest",
+    "name": "parallel-test"
+  },
+
+  "environments": [{
+    "browser": "chrome",
+    "tunnel":false,
+    "network":false,
+    "visual":false
+  },{
+    "browser": "firefox",
+    "tunnel":false,
+    "network":false,
+    "visual":false
+
+  }
+]
+}
